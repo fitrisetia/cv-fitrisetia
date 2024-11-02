@@ -4,7 +4,7 @@ export default function Hero() {
     return (
      <div>
         <div className="container mx-auto p-2 text-center">
-        <h1 className="text-blue-300 font-bold">CV Online</h1>
+        <h1 className="text-blue-300 font-bold"></h1>
         <h2 className="text-3xl">Fitri Setiawati</h2>
         <Profile />
         <p>
