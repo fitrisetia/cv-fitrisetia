@@ -9,7 +9,7 @@ export default function HobbiesGallery() {
   // Object array hobbies beserta gambar
   const hobbies = [
     { name: "Photography", image: photographyImg },
-    { name: "Traveling", image: travelImg },
+    { name: "Bookbinding", image: travelImg },
     { name: "Reading", image: readingImg },
     { name: "Cooking", image: cookingImg },
   ];
