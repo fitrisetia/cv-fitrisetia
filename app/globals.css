@@ -3,15 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #ffffff; /* Tema light */
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0a0a0a; /* Tema dark */
     --foreground: #ededed;
   }
+}
+
+.body-favorite {
+  --background: #1e3a8a; /* Warna favorit (biru) */
+  --foreground: #f0f9ff; /* Teks cerah di atas latar belakang biru */
 }
 
 body {
