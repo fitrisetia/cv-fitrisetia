@@ -1,22 +1,25 @@
 import ContactForm from "./components/contactForm";
-import FavColor from "./components/favColor";
+import Footer from "./components/footer";
+import Header from "./components/header";
 import Hero from "./components/hero";
+import Hobbies from "./components/hobbies"; // Tambahkan ini
 import RiwayatPekerjaan from "./components/riwayatPekerjaan";
 import RiwayatPendidikan from "./components/riwayatPendidikan";
-import RowRiwayat from "./components/rowRiwayat";
+import Skills from "./components/skills";
 import "./isho-style.css";
 
-
-export default function Gallery() {
+export default function Home() {
   return (
     <section>
+      <Header />
       <Hero />
-      <RiwayatPendidikan/>
-      <RiwayatPekerjaan/>
-      <FavColor/>
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <Skills />
+      <RiwayatPendidikan />
+      <RiwayatPekerjaan />
+      <Hobbies />
       <ContactForm />
-    </div>
+      <Footer />
     </section>
   );
 }
+
